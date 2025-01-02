@@ -1,0 +1,58 @@
+//Database help file
+
+--------------------------------------------------------------
+- Experiment Space:
+--------------------------------------------------------------
+
+ExperimentSpace0001 - 
+
+   Block splitting [baseline, Max. Rest Samples]: [20 -1]
+   Averaged across blocks: TRUE
+   Resampling [Baseline, Task, Rest]: [20 37 20]
+   Window selection [window onset, duration, break delay]: [-20 77 5]
+   Num. Points: 1690
+
+Database was generated with generateDB_withBreak.m
+
+--------------------------------------------------------------
+- Database Processing:
+--------------------------------------------------------------
+
+   Outlier removal after DB generation: FALSE
+
+--------------------------------------------------------------
+- Database Columns:
+--------------------------------------------------------------
+
+ Column | Independent Variables:
+--------+-----------------------
+1	| SUBJECT
+2	| SESSION
+3	| DATASOURCE
+4	| STRUCTUREDDATA
+5	| CHANNEL
+6	| SIGNAL
+7	| STIMULUS
+8	| BLOCK
+
+ Column | Dependent Variables:
+--------+-----------------------
+9	| MEAN_BASELINE
+10	| STD_BASELINE
+11	| MEAN_TASK
+12	| STD_TASK
+13	| TASK_MINUS_BASELINE
+14	| AREA_UNDER_CURVE_TASK
+15	| TIME_TO_PEAK
+16	| TIME_TO_NADIR
+
+--------------------------------------------------------------
+- Signal Identifiers:
+--------------------------------------------------------------
+
+
+1 - OXY-HB
+2 - DEOXY-HB
+4 - TOTAL-HB (IF PRESENT)
+5 - HB-DIFF (IF PRESENT)
+

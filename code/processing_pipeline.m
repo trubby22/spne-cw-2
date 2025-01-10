@@ -1,4 +1,4 @@
-function seriesSPNDataChallenge0001(optDB)
+function processing_pipeline(optDB)
 %A starting script to process the PCV data for the Sensing, Perception and Neuroergonomics (SPN) data challenge
 %
 %

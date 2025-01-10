@@ -1,4 +1,4 @@
-function BlindData_PCV
+function blind_data_pcv
 %
 % A script to blind the PCV dataset.
 %

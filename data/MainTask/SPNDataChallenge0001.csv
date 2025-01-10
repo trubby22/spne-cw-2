@@ -1,3 +1,4 @@
+subject,session,data_source,structured_data,channel,signal,stimulus,block,mean_baseline,std_baseline,mean_task,std_task,task_minus_baseline,area_under_curve_task,time_to_peak,time_to_nadir
 101,1,1,1,1,1,1,1,-0.079285,3.2234,2.0225,6.862,2.1018,111.11,22,4
 101,1,1,1,1,2,1,1,-0.62191,1.4858,-0.047585,2.0509,0.57433,-5.5031,1,40
 101,1,1,1,2,1,1,1,1.6936,5.6047,0.65991,7.6422,-1.0337,37.842,30,7
